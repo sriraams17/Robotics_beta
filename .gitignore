@@ -1,0 +1,13 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore downloaded Machine Learning model weights
+*.pt
+
+# Ignore temporary images and generated data output logs
+temp_inspection.jpg
+mock_robot_telemetry.json
+
+# Ignore generated PDF reports
+*.pdf
