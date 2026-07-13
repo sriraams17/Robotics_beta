@@ -1,0 +1,30 @@
+[
+  {
+    "timestamp": "2026-07-13 10:00:00",
+    "zone": "Warehouse A",
+    "metric": "Blocked Fire Extinguisher",
+    "status": "FAIL",
+    "severity": "High"
+  },
+  {
+    "timestamp": "2026-07-13 10:05:00",
+    "zone": "Loading Dock",
+    "metric": "Floor Obstruction",
+    "status": "FAIL",
+    "severity": "Medium"
+  },
+  {
+    "timestamp": "2026-07-13 10:15:00",
+    "zone": "Server Room",
+    "metric": "Ambient Temperature",
+    "status": "PASS",
+    "severity": "Low"
+  },
+  {
+    "timestamp": "2026-07-13 10:30:00",
+    "zone": "Chemical Storage",
+    "metric": "Ventilation Flow Rate",
+    "status": "FAIL",
+    "severity": "Critical"
+  }
+]
