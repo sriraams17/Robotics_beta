@@ -1,0 +1,17 @@
+names:
+- cooler
+- coolerbottle
+- dustbin
+- exit_sign
+- firehydrant
+- frontdesk
+nc: 6
+roboflow:
+  license: CC BY 4.0
+  project: office-yt3rl-hawby
+  url: https://universe.roboflow.com/sriraams17-gmail-com/office-yt3rl-hawby/dataset/1
+  version: 1
+  workspace: sriraams17-gmail-com
+test: ../test/images
+train: ../train/images
+val: ../valid/images

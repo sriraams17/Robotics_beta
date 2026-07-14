@@ -1,30 +1,29 @@
-[
-  {
-    "timestamp": "2026-07-13 10:00:00",
-    "zone": "Warehouse A",
-    "metric": "Blocked Fire Extinguisher",
-    "status": "FAIL",
-    "severity": "High"
-  },
-  {
-    "timestamp": "2026-07-13 10:05:00",
-    "zone": "Loading Dock",
-    "metric": "Floor Obstruction",
-    "status": "FAIL",
-    "severity": "Medium"
-  },
-  {
-    "timestamp": "2026-07-13 10:15:00",
-    "zone": "Server Room",
-    "metric": "Ambient Temperature",
-    "status": "PASS",
-    "severity": "Low"
-  },
-  {
-    "timestamp": "2026-07-13 10:30:00",
-    "zone": "Chemical Storage",
-    "metric": "Ventilation Flow Rate",
-    "status": "FAIL",
-    "severity": "Critical"
-  }
-]
+{
+    "metadata": {
+        "timestamp": "2026-07-13T19:18:08.334207",
+        "robot_id": "QHSE-ROBOT-BETA-01",
+        "inspection_type": "Optical Hazard Scanning",
+        "overall_status": "FAIL",
+        "max_risk_level": "Medium"
+    },
+    "findings": [
+        {
+            "element": "Tripping Hazard / Foreign Object Debris",
+            "confidence_score": 94.46,
+            "risk_assessment": "Medium",
+            "corrective_action": "Clear pathway immediately"
+        },
+        {
+            "element": "mouse",
+            "confidence_score": 64.14,
+            "risk_assessment": "Low",
+            "corrective_action": "None"
+        },
+        {
+            "element": "dining table",
+            "confidence_score": 32.43,
+            "risk_assessment": "Low",
+            "corrective_action": "None"
+        }
+    ]
+}
